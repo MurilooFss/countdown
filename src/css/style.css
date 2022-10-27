@@ -103,6 +103,7 @@ footer img{
         margin-top: 5vh;
         width: 60vw;
     }
+    
 }
 @media screen and (max-width: 500px){
     header{
@@ -115,6 +116,12 @@ footer img{
     .countdown{
         width: 90vw;
         margin: 0 auto;
+    }
+    .spanContentTime{
+        font-size: 3.5rem;
+    }
+    .values{
+        margin-top: 5px;
     }
     .rocket img{
         margin-top: 5vh;

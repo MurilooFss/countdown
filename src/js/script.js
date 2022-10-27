@@ -1,6 +1,6 @@
 function calcTime(){
     const date = new Date().getTime()
-    const eventDay = new Date('oct 31, 2022 11:00:00').getTime();
+    const eventDay = new Date('mar 27, 2023 00:00:00').getTime();
     const today = eventDay - date
     let thisDay = Math.floor(today / (1000*60*60*24))
     let thisHour = Math.floor((today % (1000*60*60*24))/(1000*60*60))
